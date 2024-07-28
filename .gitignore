@@ -19,3 +19,8 @@ npm-debug.log
 #PHP storm
 /.idea
 public/open-api.json
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###

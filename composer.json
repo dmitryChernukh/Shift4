@@ -11,6 +11,7 @@
         "guzzlehttp/guzzle": "^7.9",
         "monolog/monolog": "^1.16|^2.0|^3.0",
         "nyholm/psr7": "^1.7",
+        "phpunit/phpunit": "^11.2",
         "symfony/console": "7.1.*",
         "symfony/dotenv": "7.1.*",
         "symfony/flex": "^2",

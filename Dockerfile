@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
     libicu-dev \
     libonig-dev \
     libzip-dev \
-    libpq-dev
+    libpq-dev \
+    php-xdebug
 
 # Install PHP extensions
 RUN docker-php-ext-install intl mbstring zip pdo pdo_mysql pdo_pgsql
