@@ -1,0 +1,26 @@
+.phpunit.result.cache
+/bin/*
+!/bin/console
+npm-debug.log
+!/bin/validate-migrations
+
+###> symfony/framework-bundle ###
+.env
+/public/bundles/
+/var/
+/vendor/
+
+###< symfony/framework-bundle ###
+
+/config/packages/parameters.yml
+
+/coverage/
+
+#PHP storm
+/.idea
+public/open-api.json
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
